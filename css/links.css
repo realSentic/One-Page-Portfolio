@@ -1,0 +1,119 @@
+.links {
+    font-family: "Kumbh Sans";
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
+.fa-brands {
+    font-size: 30px;
+    color: white;
+}
+
+.links-title h3 {
+    font-size: 50px;
+    padding-top: 45px;
+    text-align: center;
+}
+
+.links-title p {
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 45px;    
+}
+
+.links-container {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-container a {
+    text-decoration: none;
+}
+
+.link-icon {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.link-card {
+    display: flex;
+}
+
+.link-card p {
+    display: flex;
+    align-items: center;
+}
+
+.instagram {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+    border-radius: 8px;
+    width: 180px;
+    background-color: rgba(58, 58, 58, 0.418);
+    transition: all ease 0.3s;
+}
+
+.instagram:hover {
+    background-color: rgba(173, 82, 166, 0.486);
+}
+
+.instagram {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+    border-radius: 8px;
+    width: 180px;
+    background-color: rgba(58, 58, 58, 0.418);
+    transition: all ease 0.3s;
+}
+
+.instagram:hover {
+    background-color: rgba(173, 82, 166, 0.486);
+}
+
+.facebook {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+    border-radius: 8px;
+    width: 180px;
+    background-color: rgba(58, 58, 58, 0.418);
+    transition: all ease 0.3s;
+}
+
+.facebook:hover {
+    background-color: rgba(104, 138, 202, 0.486);
+}
+
+.github {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+    border-radius: 8px;
+    width: 180px;
+    background-color: rgba(58, 58, 58, 0.418);
+    transition: all ease 0.3s;
+}
+
+.github:hover {
+    background-color: rgba(0, 0, 0, 0.486);
+}
+
+.youtube {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+    border-radius: 8px;
+    width: 180px;
+    background-color: rgba(58, 58, 58, 0.418);
+    transition: all ease 0.3s;
+}
+
+.youtube:hover {
+    background-color: rgba(199, 57, 57, 0.486);
+}

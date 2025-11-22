@@ -1,0 +1,190 @@
+.fav-subjects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Kumbh Sans";
+    gap: 35px;
+}
+
+.subjects-title {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+}
+
+.upper-container {
+    display: flex;
+    gap: 50px;
+}
+
+.lower-container {
+    display: flex;
+    gap: 50px;
+}
+
+.subject-container {
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    background-color: rgba(73, 73, 73, 0.445);
+    box-shadow: 0px 6.5px 0px #60A289;
+    border: #60A289 solid 1.5px;
+    display: flex;
+    gap: 20px;
+}
+
+.philosophy {
+    transition: ease all 0.3s;
+}
+
+.philosophy i {
+    color: #60A289;
+    transition: ease all 0.3s
+}
+
+.philosophy:hover{
+    transform: translateY(-10px);
+    background-color: rgba(97, 71, 36, 0.527);
+    box-shadow: 0px 10px 0px #c26d28;
+    border: #c26d28 solid 1.5px;
+}
+
+.philosophy:hover i{
+    color: #c26d28;
+}
+
+.creative-writing {
+    transition: ease all 0.3s;
+}
+
+.creative-writing i {
+    color: #60A289;
+    transition: ease all 0.3s
+}
+
+.creative-writing:hover{
+    transform: translateY(-10px);
+    background-color: rgba(141, 122, 58, 0.527);
+    box-shadow: 0px 10px 0px #d3a830;
+    border: #d3a830 solid 1.5px;
+    cursor: pointer;
+}
+
+.creative-writing:hover i{
+    color: #d3a73085;
+}
+
+.mathematics {
+    transition: ease all 0.3s;
+}
+
+.mathematics i {
+    color: #60A289;
+    transition: ease all 0.3s
+}
+
+.mathematics:hover{
+    transform: translateY(-10px);
+    background-color: #752b2b41;
+    box-shadow: 0px 10px 0px #8d2424;
+    border: #8d2424 solid 1.5px;
+    cursor: pointer;
+}
+
+.mathematics:hover i{
+    color: #8d2424;
+}
+
+.physical-science {
+    transition: ease all 0.3s;
+}
+
+.physical-science i {
+    color: #60A289;
+    transition: ease all 0.3s
+}
+
+.physical-science:hover{
+    transform: translateY(-10px);
+    background-color: #2d19307a;
+    box-shadow: 0px 10px 0px #58295e;
+    border: #58295e solid 1.5px;
+    cursor: pointer;
+}
+
+.physical-science:hover i{
+    color: #58295e;
+}
+
+.history {
+    transition: ease all 0.3s;
+}
+
+.history i {
+    color: #60A289;
+    transition: ease all 0.3s
+}
+
+.history:hover{
+    transform: translateY(-10px);
+    background-color: #2e4b5c73;
+    box-shadow: 0px 10px 0px #47728b;
+    border: #47728b solid 1.5px;
+    cursor: pointer;
+}
+
+.history:hover i{
+    color: #47728b;
+}
+
+.programming {
+    transition: ease all 0.3s;
+}
+
+.programming i {
+    color: #60A289;
+    transition: ease all 0.3s
+}
+
+.programming:hover{
+    transform: translateY(-10px);
+    background-color: #56375e6c;
+    box-shadow: 0px 10px 0px #915d9e;
+    border: #915d9e solid 1.5px;
+    cursor: pointer;
+}
+
+.programming:hover i{
+    color: #915d9e;
+}
+
+.subject-icon{
+    display: flex;
+    align-items: center;
+}
+
+.subject-icon i {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.subject-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subject-text p{
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.fa-solid {
+    color: #60A289;
+}
+
+

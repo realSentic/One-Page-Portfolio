@@ -1,0 +1,133 @@
+.skills-title {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+    font-family: "Kumbh Sans";
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-family: "Kumbh Sans";
+}
+
+.program-icon {
+    text-align: center;
+    padding: 25px;
+}
+
+.program-description {
+    text-align: center;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.python, .javascript, .html, .css, .cpp, .lua, .godot {
+    background-color: rgba(48, 48, 48, 0.856);
+    width: 180px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    border: #88b1a29f solid 1px;
+    box-shadow: 0px 10px 0px #88b1a29f;
+    transition: all ease 0.3s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.python i, .javascript i, .html i, .css i, .cpp i, .lua i, .godot i {
+    font-size: 5.5rem;
+    color: #60A289;
+    transition: all 0.3s ease;
+}
+
+.python p, .javascript p, .html p, .css p, .cpp p, .lua p, .godot p {
+    font-weight: bolder;
+    color: white;
+}
+
+small {
+    color: white;
+}
+
+.python:hover {
+    border: #ffde57 solid 1px;
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 0px #ffde57;
+}
+
+.python:hover i {
+    color: #ffde57;
+}
+
+.javascript:hover {
+    border: #FFD700 solid 1px;
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 0px #FFD700;
+}
+
+.javascript:hover i {
+    color: #FFD700;
+}
+
+.html:hover {
+    border: #FF5733 solid 1px;
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 0px #FF5733;
+}
+
+.html:hover i {
+    color: #FF5733;
+}
+
+.css:hover {
+    border: #1E90FF solid 1px;
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 0px #1E90FF;
+}
+.css:hover i {
+    color: #1E90FF;
+}
+
+.cpp:hover {
+    border: #00BFFF solid 1px;
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 0px #00BFFF;
+}
+
+.cpp:hover i {
+    color: #00BFFF;
+}
+
+.lua:hover {
+    border: #4169E1 solid 1px;
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 0px #4169E1;
+}
+.lua:hover i {
+    color: #4169E1;
+}
+
+.godot:hover {
+    animation-name: spin;
+    animation-duration: 1.5s;
+    border: #5DADE2 solid 1px;
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 0px #5DADE2;
+}
+
+.godot:hover i {
+    color: #5DADE2;
+}

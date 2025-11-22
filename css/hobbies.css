@@ -1,0 +1,151 @@
+.hobbies-container {
+    font-family: "Kumbh Sans";
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: flex-start; 
+    gap: 35px;
+    flex-wrap: wrap; 
+}
+
+.hb-container {
+    position: relative;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 10px; 
+}
+
+.hb-right {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 100;
+}
+
+.hb-content {
+    border: #60A289 solid 2px;
+    background-color: rgba(48, 48, 48, 0.95);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 600px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.hb-container:hover {
+    display: flex;
+    cursor: pointer;
+}
+
+.hobbies-container img {
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    transition: all ease 0.3s;
+}
+
+#game:hover img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 0px #5243da;
+}
+
+#anime-container {
+    border: rgb(216, 101, 201) solid 1px;
+}
+
+#anime:hover img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 0px rgb(216, 101, 201)
+}
+
+#music:hover img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 0px rgb(235, 71, 71)
+}
+
+
+.hobbies-container p {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.fav-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.fav-image img:hover {
+    transform: translateY(-10px);
+}
+
+.vg-container {
+    display: flex;
+    gap: 20px;
+    background-color: rgba(48, 48, 48, 0.856);
+    border: #5243da solid 1px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.fav-container img {
+    height: 100px;
+    width: 100px;
+}
+
+.hb-right p {
+    font-size: 10px;
+}
+
+.fav-text{
+    text-align: center;
+}
+
+.hb-text p {
+    font-size: 25px;
+}
+
+.anime-image img {
+    border-radius: 10px;
+    height: 175px;
+    width: 120px;
+}
+
+.fav-container {
+    text-align: center;
+}
+
+.fav-container p {
+    font-weight: normal;
+    font-size: 15px;
+    width: 150px;
+}
+
+small {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.t-container p {
+    margin-bottom: 33px;
+}

@@ -1,0 +1,60 @@
+.nav-title {
+    display: flex;
+    cursor: pointer;
+}
+
+.nav-container {
+    background: #ffffff;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.74) 100%);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 0px 120px 0px 120px;
+}
+
+.nav-title p {
+    color: rgb(254, 255, 254);
+    font-size: 2em;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: "Kumbh Sans";
+}
+
+.logo-img {
+    margin: 8px;
+    margin-top: 12px;
+}
+
+.logo-img a {
+    text-decoration: none;
+}
+
+.logo-img img {
+    max-width: 60px;
+}
+
+.nav-links ul li {
+    list-style-type: none;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 35px;
+}
+
+.nav-links ul li a {
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: "Kumbh Sans";
+    transition: all ease 0.3s;
+}
+
+.nav-links ul li a:hover {
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.575);
+}

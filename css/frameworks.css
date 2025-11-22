@@ -1,0 +1,74 @@
+.react, .tailwind, .nodejs, .django, .firebase {
+    background-color: rgba(48, 48, 48, 0.856);
+    width: 180px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    border: #88b1a29f solid 1px;
+    box-shadow: 0px 10px 0px #88b1a29f;
+    transition: all ease 0.3s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.react i, .tailwind i, .nodejs i, .django i, .firebase i {
+    font-size: 5.5rem;
+    color: #60A289;
+    transition: all 0.3s ease;
+}
+
+.react p, .tailwind p, .nodejs p, .django p, .firebase p {
+    font-weight: bolder;
+    color: white;
+}
+
+.react:hover {
+    border: #61dafb solid 1px;
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 0px #61dafb;
+}
+.react:hover i {
+    color: #61dafb;
+    animation: bounce;
+}
+
+.tailwind:hover {
+    border: #38b2ac solid 1px;
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 0px #38b2ac;
+}
+.tailwind:hover i {
+    color: #38b2ac;
+}
+
+.nodejs:hover {
+    border: #68a063 solid 1px;
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 0px #68a063;
+}
+.nodejs:hover i {
+    color: #68a063;
+}
+
+.django:hover {
+    border: #092e20 solid 1px;
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 0px #092e20;
+}
+
+.django:hover i {
+    color: #092e20;
+}
+
+.firebase:hover {
+    border: #ffca28 solid 1px;
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 0px #ffca28;
+}
+.firebase:hover i {
+    color: #ffca28;
+}

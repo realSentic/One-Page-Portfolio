@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+
+hr {
+    margin: 50px 10px 50px 10px;
+    border: none;
+    border-top: 2px solid rgb(39, 39, 39);
+    background-color: rgb(39, 39, 39);
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+u {
+    margin: 50px;
+}
+
+body {
+    margin: 0;
+    padding: 0px;
+    background: #182618;
+    background: linear-gradient(50deg,rgba(24, 38, 24, 1) 0%, rgba(68, 97, 68, 1) 100%);
+}

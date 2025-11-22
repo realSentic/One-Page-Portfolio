@@ -1,0 +1,43 @@
+.secondary-page {
+    background-color: rgb(24, 24, 24);
+}
+
+.information {
+    font-family: "Kumbh Sans";
+    display: flex;
+    justify-content: space-around;
+    padding: 150px;
+    gap: 20px;
+}
+
+.information-img {
+    margin-top: 80px;
+}
+
+.information-img img {
+    border-radius: 15px;
+    height: 450px;
+    width: 450px;
+    transition: all ease 0.3s;
+}
+
+.information-img img:hover {
+    box-shadow: 2px 2px 40px 2px #60A289;
+}
+
+.information-text {
+    max-width: 50%;
+}
+
+.information-text h3 {
+    color: #60A289;
+    font-size: 5em;
+    text-align: center;
+    margin: 65px;
+}
+
+.information-text p {
+    color: #60A289;
+    font-size: 1.5em;
+    text-align: justify;
+}
